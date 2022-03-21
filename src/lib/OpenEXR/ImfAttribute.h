@@ -119,7 +119,7 @@ class IMF_EXPORT_TEMPLATE_TYPE TypedAttribute: public Attribute
     // that the type T is copyable/assignable/moveable.
     //------------------------------------------------------------
 
-    TypedAttribute () = default;
+    IMF_EXPORT TypedAttribute () = default;
     TypedAttribute (const T &value);
     TypedAttribute (const TypedAttribute<T> &other) = default;
     TypedAttribute (TypedAttribute<T> &&other) = default;
